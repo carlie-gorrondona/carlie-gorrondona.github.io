@@ -1,0 +1,79 @@
+/* #navbarNavAltMarkup {
+    font-family: 'Exo 2', sans-serif;
+} */
+
+* {
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.sassimg {
+    height: 64px;
+    width: 64px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1704');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    animation: fadeIn 5s ease-in;
+    /* height: 100%; 
+    overflow: hidden */
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.navigation {
+    height: 500px;
+    width: 600px;
+    margin: 200px 200px 0 750px;
+    text-align: center;
+}
+
+.myname {
+    font-size: 36pt; 
+}
+
+.profilepic {
+    border-radius: 50%;
+    border-style:groove;
+    height: 300px; 
+    width: 300px;
+    margin-top: 20px;
+}
+
+.navoptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
