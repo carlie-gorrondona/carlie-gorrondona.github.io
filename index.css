@@ -12,15 +12,19 @@
     height: 100vh;
 }
 
-#titleandimage {
+/* #titleandimage {
     width: 600px;
-    margin: 150px 0 0 100px;
+    
     text-align: center;
+} */
+
+.firstpanel .container {
+    margin-top: 100px;
 }
 
-.myname {
+/* .myname {
     font-size: 36pt; 
-}
+} */
 
 #profilepic {
     border-radius: 50%;
@@ -28,6 +32,8 @@
     height: 300px; 
     width: 300px;
     margin-top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .aboutmepanel {
@@ -38,7 +44,7 @@
     height: 100vh;
 }
 
-.aobutmetextbox {
+/* .aobutmetextbox {
     width: 600px;
     height: 100vh;
 }
@@ -47,7 +53,7 @@
     width: 600px;
     padding: 100px;
     margin: 0px 100px 0 750px;
-}
+} */
 
 
 .skillspanel {
@@ -104,15 +110,14 @@
 }
 
 .contacttextbox {
-    padding: 100px;
-}
-
-#contacttext {
-    margin-top: 70px;
-    margin-left: 450px;
+    padding: 80px;
 }
 
 #contacttext .row {
+    margin-top: 60px;
+}
+
+/* #contacttext .row {
     width: 500px;
     justify-content: space-evenly;
-}
+} */
